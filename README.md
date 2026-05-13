@@ -1,292 +1,146 @@
-\# COVID-19 Next Week Death Prediction
-
-
+# COVID-19 Next Week Death Prediction
 
 A machine learning and data analysis project focused on predicting the number of COVID-19 deaths for the following week using statistical analysis, exploratory data analysis (EDA), preprocessing, and regression models.
 
-
-
 The project was mainly developed inside Jupyter Notebooks and combines:
 
+- exploratory data analysis
+- hypothesis investigation
+- preprocessing
+- feature engineering
+- regression modeling
+- prediction on test data
 
+---
 
-\- exploratory data analysis
-
-\- hypothesis investigation
-
-\- preprocessing
-
-\- feature engineering
-
-\- regression modeling
-
-\- prediction on test data
-
-
-
-\---
-
-
-
-\# Project Overview
-
-
+# Project Overview
 
 This project explores COVID-19 datasets in order to predict future death counts.
 
-
-
 The workflow includes:
 
-
-
-\- data cleaning
-
-\- exploratory data analysis
-
-\- geographic data exploration
-
-\- preprocessing
-
-\- regression model training
-
-\- model evaluation
-
-\- prediction generation
-
-
+- data cleaning
+- exploratory data analysis
+- geographic data exploration
+- preprocessing
+- regression model training
+- model evaluation
+- prediction generation
 
 The complete workflow is implemented mainly in notebooks.
 
+---
+
+# Features
+
+- Exploratory Data Analysis (EDA)
+- Statistical analysis
+- Data preprocessing
+- Feature engineering
+- Regression modeling
+- COVID-19 death forecasting
+- Visualization and plotting
+- Prediction export to CSV/XLSX
 
 
-\---
+---
 
-
-
-\# Features
-
-
-
-\- Exploratory Data Analysis (EDA)
-
-\- Statistical analysis
-
-\- Data preprocessing
-
-\- Feature engineering
-
-\- Regression modeling
-
-\- COVID-19 death forecasting
-
-\- Visualization and plotting
-
-\- Prediction export to CSV/XLSX
-
-
-
-
-
-\---
-
-
-
-\# Dataset
-
-
+# Dataset
 
 The project uses COVID-19 datasets containing:
 
-
-
-\- country-based statistics
-
-\- temporal information
-
-\- death-related data
-
-\- geographical information
-
-
+- country-based statistics
+- temporal information
+- death-related data
+- geographical information
 
 Additional geographic data and shapefiles are used for visualization and analysis.
 
+---
 
-
-\---
-
-
-
-\# Exploratory Data Analysis (EDA)
-
-
+# Exploratory Data Analysis (EDA)
 
 The project contains extensive exploratory analysis including:
 
-
-
-\- statistical summaries
-
-\- trend analysis
-
-\- correlation analysis
-
-\- geographic visualization
-
-\- distribution analysis
-
-\- hypothesis investigation
-
-
+- statistical summaries
+- trend analysis
+- correlation analysis
+- geographic visualization
+- distribution analysis
+- hypothesis investigation
 
 Different plots and visualizations are generated throughout the notebook.
 
+---
 
-
-\---
-
-
-
-\# Machine Learning Workflow
-
-
+# Machine Learning Workflow
 
 The workflow includes:
 
+## Data Preprocessing
 
+- missing value handling
+- normalization/scaling
+- feature selection
+- train/test preparation
 
-\## Data Preprocessing
+---
 
-
-
-\- missing value handling
-
-\- normalization/scaling
-
-\- feature selection
-
-\- train/test preparation
-
-
-
-\---
-
-
-
-\## Modeling
-
-
+## Modeling
 
 Different regression approaches and transformer-based models are explored for prediction.
 
-
-
 The project evaluates and compares different models before generating final predictions.
 
+---
 
-
-\---
-
-
-
-\# Predictions
-
-
+# Predictions
 
 The final predictions are exported as:
 
-
-
 ```text
-
-covid\_predictions.csv
-
-covid\_vorhersage.csv
-
+covid_predictions.csv
+covid_vorhersage.csv
 ```
-
-
 
 Additional XLSX exports are also included.
 
+---
 
+# Technologies Used
 
-\---
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
 
+---
 
+# Concepts Explored
 
-\# Technologies Used
+- Exploratory Data Analysis (EDA)
+- Regression
+- Forecasting
+- Data Visualization
+- Statistical Analysis
+- Feature Engineering
+- Machine Learning Workflow
 
+---
 
-
-\- Python
-
-\- Jupyter Notebook
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Scikit-learn
-
-
-
-\---
-
-
-
-\# Concepts Explored
-
-
-
-\- Exploratory Data Analysis (EDA)
-
-\- Regression
-
-\- Forecasting
-
-\- Data Visualization
-
-\- Statistical Analysis
-
-\- Feature Engineering
-
-\- Machine Learning Workflow
-
-
-
-\---
-
-
-
-\# Author
-
-
+# Author
 
 Kalil Sacko
 
-
-
 Master Student in Computer Science  
+University of Applied Sciences Bochum(Hochschule Bochum)
 
-Hochschule Bochum
+---
 
+# Notes
 
-
-\---
-
-
-
-\# Notes
-
-
-
-\- The project was primarily developed inside Jupyter Notebooks.
-
-\- The workflow combines analysis, preprocessing, modeling, and prediction in a single notebook pipeline.
-
-\- Geographic datasets and shapefiles are used for additional analysis and visualization.
-
+- The project was primarily developed inside Jupyter Notebooks.
+- The workflow combines analysis, preprocessing, modeling, and prediction in a single notebook pipeline.
+- Geographic datasets and shapefiles are used for additional analysis and visualization.
